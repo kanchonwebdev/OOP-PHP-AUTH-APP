@@ -1,0 +1,14 @@
+[23-Apr-2024 09:20:33 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in C:\Users\Dell\Desktop\PHP\Authentication\class\Auth.php:21
+Stack trace:
+#0 C:\Users\Dell\Desktop\PHP\Authentication\class\Auth.php(21): PDOStatement->execute()
+#1 C:\Users\Dell\Desktop\PHP\Authentication\sign-up.php(11): Auth->Register()
+#2 {main}
+  thrown in C:\Users\Dell\Desktop\PHP\Authentication\class\Auth.php on line 21
+[23-Apr-2024 09:20:55 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in C:\Users\Dell\Desktop\PHP\Authentication\class\Auth.php:21
+Stack trace:
+#0 C:\Users\Dell\Desktop\PHP\Authentication\class\Auth.php(21): PDOStatement->execute()
+#1 C:\Users\Dell\Desktop\PHP\Authentication\sign-up.php(11): Auth->Register()
+#2 {main}
+  thrown in C:\Users\Dell\Desktop\PHP\Authentication\class\Auth.php on line 21
+[25-Apr-2024 02:42:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[25-Apr-2024 02:42:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
